@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Counter with JavaScript</title>
+  </head>
+  <style>
+    @media (max-width: 414px) {
+      body {
+        text-align: center;
+      }
+    }
+  </style>
+  <body>
+    <header>
+      <h1 class="mean-title">Counter with JavaScript</h1>
+    </header>
+    <section id="container">
+      <p class="counter-paragraph" id="number">0</p>
+    </section>
+    <div class="buttons" id="button-div">
+      <button
+        onclick="decreaseNumber()"
+        class="decrease-button"
+        id="decrease-function"
+      >
+        -
+      </button>
+      <button onclick="resetNumber()" class="reset-button" id="reset-function">
+        &#8635;
+      </button>
+      <button
+        onclick="increaseNumber()"
+        class="increase-button"
+        id="increase-function"
+      >
+        +
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

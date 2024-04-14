@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid;
+}
+header .mean-title {
+  font-size: 2em;
+}
+
+#container {
+  margin: 50px auto;
+  height: 60vh;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: linear-gradient(yellow, pink);
+}
+.counter-paragraph {
+  text-align: center;
+  font-size: 5em;
+}
+.buttons {
+  margin: 50px auto;
+  padding: 50px;
+  text-align: center;
+  height: 100%;
+  width: 25%;
+  border-radius: 10px;
+}
+.decrease-button,
+.increase-button,
+.reset-button {
+  padding: 20px;
+  height: 150px;
+  width: 100px;
+  border-color: black;
+  border-radius: 10px;
+  font-size: 50px;
+}
+.decrease-button:hover,
+.increase-button:hover,
+.reset-button:hover {
+  background-color: cornflowerblue;
+  transition: 0.2s;
+}
